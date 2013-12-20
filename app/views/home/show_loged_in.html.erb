@@ -1,0 +1,24 @@
+<h1>Home#show</h1>
+<p>Find me in app/views/home/show.html.erb</p>
+
+<table>
+  <thead>
+  <tr>
+    <th colspan="2">Weekly overview</th>
+  </tr>
+  <tr>
+    <th>Weight</th>
+    <th>Date</th>
+  </tr>
+  </thead>
+
+  <tbody>
+  <% @logs.each do |log| %>
+      <tr>
+        <td><%= log.weight %></td>
+        <td><%= log.date %></td>
+      </tr>
+  <% end %>
+  </tbody>
+</table>
+

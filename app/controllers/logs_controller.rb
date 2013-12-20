@@ -6,7 +6,7 @@ class LogsController < ApplicationController
   # GET /logs
   # GET /logs.json
   def index
-    @logs = current_user.logs
+    @logs = Log.where(user_id: current_user.id, date: (Time.now - 1.month)..(Time.now))
   end
 
   # GET /logs/1
