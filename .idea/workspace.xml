@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="43fb793d-3ee4-4330-be24-047594f22871" name="Default" comment="add link to &quot;new log&quot; to overview Page">
+    <list default="true" id="43fb793d-3ee4-4330-be24-047594f22871" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TogetherLess.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="43fb793d-3ee4-4330-be24-047594f22871" time="1387551633833" ignored="false" />
+    <file path="/Dummy.txt" changelist="43fb793d-3ee4-4330-be24-047594f22871" time="1387551790934" ignored="false" />
     <file path="/user.rb" changelist="43fb793d-3ee4-4330-be24-047594f22871" time="1387542667229" ignored="false" />
     <file path="/application.html.erb" changelist="43fb793d-3ee4-4330-be24-047594f22871" time="1385810435789" ignored="false" />
     <file path="/routes.rb" changelist="43fb793d-3ee4-4330-be24-047594f22871" time="1385827566459" ignored="false" />
@@ -668,7 +668,11 @@
       <created>1387551566961</created>
       <updated>1387551566961</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add link to &quot;new log&quot; to overview Page">
+      <created>1387551793799</created>
+      <updated>1387551793799</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
