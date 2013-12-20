@@ -11,12 +11,14 @@
   <%= link_to image_tag("logo.png", alt: "Home", id: "navLogo"), home_path %>
   <h1 id="navTitle">Title</h1>
 </nav>
-<% if flash[:notice] %>
-<p class="notice"><%= notice %></p>
-<% end %>
-<% if flash[:alert] %>
-<p class="alert"><%= alert %></p>
-<% end %>
+<section>
+    <% if flash[:notice] %>
+    <p class="notice"><%= notice %></p>
+    <% end %>
+    <% if flash[:alert] %>
+    <p class="alert"><%= alert %></p>
+    <% end %>
+</section>
 <% if user_signed_in? %>
     signed in as <%= current_user.email %>
     <%= link_to "Sign out", destroy_user_session_path, :method => :delete %>
