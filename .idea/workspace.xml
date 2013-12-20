@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43fb793d-3ee4-4330-be24-047594f22871" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/Logo.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TogetherLess.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="43fb793d-3ee4-4330-be24-047594f22871" time="1387551790934" ignored="false" />
+    <file path="/Dummy.txt" changelist="43fb793d-3ee4-4330-be24-047594f22871" time="1387551831005" ignored="false" />
     <file path="/user.rb" changelist="43fb793d-3ee4-4330-be24-047594f22871" time="1387542667229" ignored="false" />
-    <file path="/application.html.erb" changelist="43fb793d-3ee4-4330-be24-047594f22871" time="1385810435789" ignored="false" />
+    <file path="/application.html.erb" changelist="43fb793d-3ee4-4330-be24-047594f22871" time="1387552893347" ignored="false" />
     <file path="/routes.rb" changelist="43fb793d-3ee4-4330-be24-047594f22871" time="1385827566459" ignored="false" />
     <file path="/Gemfile" changelist="43fb793d-3ee4-4330-be24-047594f22871" time="1387539656722" ignored="false" />
     <file path="/Ruby Console" changelist="43fb793d-3ee4-4330-be24-047594f22871" time="1387551296451" ignored="false" />
@@ -18,6 +22,7 @@
     <file path="/home_controller.rb" changelist="43fb793d-3ee4-4330-be24-047594f22871" time="1387551076685" ignored="false" />
     <file path="/show.html.erb" changelist="43fb793d-3ee4-4330-be24-047594f22871" time="1387550418784" ignored="false" />
     <file path="/show_loged_in.html.erb" changelist="43fb793d-3ee4-4330-be24-047594f22871" time="1387551483145" ignored="false" />
+    <file path="/application.css" changelist="43fb793d-3ee4-4330-be24-047594f22871" time="1387552623154" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,10 +60,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show_loged_in.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="show_loged_in.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/home/show_loged_in.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="52" selection-start="409" selection-end="409" vertical-scroll-proportion="0.86175114">
+            <state line="22" column="52" selection-start="409" selection-end="409" vertical-scroll-proportion="-14.384615">
               <folding />
             </state>
           </provider>
@@ -82,10 +87,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="26" selection-start="341" selection-end="365" vertical-scroll-proportion="-7.1923075">
+            <state line="16" column="2" selection-start="465" selection-end="465" vertical-scroll-proportion="0.6267281">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="64" column="28" selection-start="1377" selection-end="1377" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -115,7 +129,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/config/environments/development.rb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
@@ -127,6 +140,8 @@
         <option value="$PROJECT_DIR$/app/controllers/home_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/logs/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/home/show_loged_in.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       </list>
     </option>
   </component>
@@ -224,28 +239,6 @@
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="logs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TogetherLess" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TogetherLess" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -265,7 +258,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="home" />
+              <option name="myItemId" value="layouts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -297,7 +290,51 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TogetherLess" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TogetherLess" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TogetherLess" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TogetherLess" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -318,6 +355,11 @@
     <property name="dynamic.classpath" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\boxi\RubymineProjects\TogetherLess\app\assets\images" />
+    </key>
   </component>
   <component name="RunManager" selected="IRB console.Rails console: TogetherLess">
     <configuration default="false" name="db:migrate" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
@@ -672,7 +714,11 @@
       <created>1387551793799</created>
       <updated>1387551793799</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="hmmm... do I have to commit the workspace.xml???">
+      <created>1387551833276</created>
+      <updated>1387551833276</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -761,7 +807,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="add link to &quot;new log&quot; to overview Page" />
+    <option name="LAST_COMMIT_MESSAGE" value="hmmm... do I have to commit the workspace.xml???" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -779,6 +825,7 @@
     <MESSAGE value="add logs -&gt; clean up" />
     <MESSAGE value="add weekly overview" />
     <MESSAGE value="add link to &quot;new log&quot; to overview Page" />
+    <MESSAGE value="hmmm... do I have to commit the workspace.xml???" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -856,13 +903,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="26" selection-start="341" selection-end="365" vertical-scroll-proportion="-7.1923075">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/home/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="0" selection-start="67" selection-end="67" vertical-scroll-proportion="-1.9615384">
@@ -886,7 +926,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/home/show_loged_in.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="52" selection-start="409" selection-end="409" vertical-scroll-proportion="0.86175114">
+        <state line="22" column="52" selection-start="409" selection-end="409" vertical-scroll-proportion="-14.384615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="28" selection-start="1377" selection-end="1377" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="2" selection-start="465" selection-end="465" vertical-scroll-proportion="0.6267281">
           <folding />
         </state>
       </provider>
