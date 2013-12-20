@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43fb793d-3ee4-4330-be24-047594f22871" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/Logo.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TogetherLess.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="43fb793d-3ee4-4330-be24-047594f22871" time="1387551831005" ignored="false" />
+    <file path="/Dummy.txt" changelist="43fb793d-3ee4-4330-be24-047594f22871" time="1387553943646" ignored="false" />
     <file path="/user.rb" changelist="43fb793d-3ee4-4330-be24-047594f22871" time="1387542667229" ignored="false" />
-    <file path="/application.html.erb" changelist="43fb793d-3ee4-4330-be24-047594f22871" time="1387552893347" ignored="false" />
+    <file path="/application.html.erb" changelist="43fb793d-3ee4-4330-be24-047594f22871" time="1387553856690" ignored="false" />
     <file path="/routes.rb" changelist="43fb793d-3ee4-4330-be24-047594f22871" time="1385827566459" ignored="false" />
     <file path="/Gemfile" changelist="43fb793d-3ee4-4330-be24-047594f22871" time="1387539656722" ignored="false" />
     <file path="/Ruby Console" changelist="43fb793d-3ee4-4330-be24-047594f22871" time="1387551296451" ignored="false" />
@@ -90,7 +86,7 @@
       <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="2" selection-start="465" selection-end="465" vertical-scroll-proportion="0.6267281">
+            <state line="11" column="18" selection-start="365" selection-end="373" vertical-scroll-proportion="0.43087557">
               <folding />
             </state>
           </provider>
@@ -718,7 +714,15 @@
       <created>1387551833276</created>
       <updated>1387551833276</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added some styling">
+      <created>1387553046786</created>
+      <updated>1387553046786</updated>
+    </task>
+    <task id="LOCAL-00008" summary="added some styling">
+      <created>1387553949589</created>
+      <updated>1387553949589</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -807,7 +811,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="hmmm... do I have to commit the workspace.xml???" />
+    <option name="LAST_COMMIT_MESSAGE" value="added some styling" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -826,6 +830,7 @@
     <MESSAGE value="add weekly overview" />
     <MESSAGE value="add link to &quot;new log&quot; to overview Page" />
     <MESSAGE value="hmmm... do I have to commit the workspace.xml???" />
+    <MESSAGE value="added some styling" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -940,7 +945,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="2" selection-start="465" selection-end="465" vertical-scroll-proportion="0.6267281">
+        <state line="11" column="18" selection-start="365" selection-end="373" vertical-scroll-proportion="0.43087557">
           <folding />
         </state>
       </provider>
