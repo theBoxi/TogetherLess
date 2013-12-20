@@ -6,7 +6,6 @@ class LogsController < ApplicationController
   # GET /logs
   # GET /logs.json
   def index
-    #@logs = Log.all
     @logs = current_user.logs
   end
 
@@ -17,7 +16,6 @@ class LogsController < ApplicationController
 
   # GET /logs/new
   def new
-    #@log = Log.new
     @log = current_user.logs.build
   end
 
@@ -68,7 +66,6 @@ class LogsController < ApplicationController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_log
-      #@log = Log.find(params[:id])
       @log = current_user.logs.find(params[:id])
     end
 
