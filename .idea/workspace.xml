@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="43fb793d-3ee4-4330-be24-047594f22871" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/logs/index.html.erb" afterPath="$PROJECT_DIR$/app/views/logs/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/show_loged_in.html.erb" afterPath="$PROJECT_DIR$/app/views/home/show_loged_in.html.erb" />
+    <list default="true" id="43fb793d-3ee4-4330-be24-047594f22871" name="Default" comment="add link to &quot;new log&quot; to overview Page">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TogetherLess.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="43fb793d-3ee4-4330-be24-047594f22871" time="1387551004422" ignored="false" />
+    <file path="/Dummy.txt" changelist="43fb793d-3ee4-4330-be24-047594f22871" time="1387551633833" ignored="false" />
     <file path="/user.rb" changelist="43fb793d-3ee4-4330-be24-047594f22871" time="1387542667229" ignored="false" />
     <file path="/application.html.erb" changelist="43fb793d-3ee4-4330-be24-047594f22871" time="1385810435789" ignored="false" />
     <file path="/routes.rb" changelist="43fb793d-3ee4-4330-be24-047594f22871" time="1385827566459" ignored="false" />
@@ -60,7 +58,7 @@
       <file leaf-file-name="show_loged_in.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/home/show_loged_in.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="21" selection-start="127" selection-end="127" vertical-scroll-proportion="0.15668203">
+            <state line="22" column="52" selection-start="409" selection-end="409" vertical-scroll-proportion="0.86175114">
               <folding />
             </state>
           </provider>
@@ -666,7 +664,11 @@
       <created>1387551013767</created>
       <updated>1387551013767</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add link to &quot;new log&quot; to overview Page">
+      <created>1387551566961</created>
+      <updated>1387551566961</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -755,7 +757,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="add weekly overview" />
+    <option name="LAST_COMMIT_MESSAGE" value="add link to &quot;new log&quot; to overview Page" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -772,6 +774,7 @@
     <MESSAGE value="add logs" />
     <MESSAGE value="add logs -&gt; clean up" />
     <MESSAGE value="add weekly overview" />
+    <MESSAGE value="add link to &quot;new log&quot; to overview Page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -879,7 +882,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/home/show_loged_in.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="21" selection-start="127" selection-end="127" vertical-scroll-proportion="0.15668203">
+        <state line="22" column="52" selection-start="409" selection-end="409" vertical-scroll-proportion="0.86175114">
           <folding />
         </state>
       </provider>
