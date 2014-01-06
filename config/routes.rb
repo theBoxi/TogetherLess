@@ -1,4 +1,6 @@
 TogetherLess::Application.routes.draw do
+  resources :groups
+
   resources :logs
 
   root :to => "home#show"
