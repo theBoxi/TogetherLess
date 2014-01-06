@@ -7,6 +7,7 @@ class User < ActiveRecord::Base
   #attr_accessible :email, :password, :password_confirmation
 
   has_many :logs
+  has_many :members
 
   def login=(login)
     @login = login

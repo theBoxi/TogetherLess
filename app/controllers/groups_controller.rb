@@ -1,15 +1,21 @@
 class GroupsController < ApplicationController
   before_action :set_group, only: [:show, :edit, :update, :destroy]
 
+  before_filter :authenticate_user!
+
   # GET /groups
   # GET /groups.json
   def index
-    @groups = Group.all
+    @groups = []
+    for member in current_user.members
+      @groups << member.group
+    end
   end
 
   # GET /groups/1
   # GET /groups/1.json
   def show
+
   end
 
   # GET /groups/new
@@ -25,6 +31,9 @@ class GroupsController < ApplicationController
   # POST /groups.json
   def create
     @group = Group.new(group_params)
+    member = Member.create
+    @group.members << member
+    current_user.members << member
 
     respond_to do |format|
       if @group.save
@@ -54,6 +63,9 @@ class GroupsController < ApplicationController
   # DELETE /groups/1
   # DELETE /groups/1.json
   def destroy
+    for member in @group.members
+      member.destroy
+    end
     @group.destroy
     respond_to do |format|
       format.html { redirect_to groups_url }
@@ -64,11 +76,24 @@ class GroupsController < ApplicationController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_group
-      @group = Group.find(params[:id])
+      if is_user_member_of_group? current_user, Group.find(params[:id])
+        @group = Group.find(params[:id])
+      else
+        @group = Group.new
+      end
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def group_params
       params.require(:group).permit(:name)
+    end
+
+    def is_user_member_of_group?(user, group)
+      for member in user.members
+        if member.group == group
+          return true
+        end
+      end
+      return false
     end
 end
