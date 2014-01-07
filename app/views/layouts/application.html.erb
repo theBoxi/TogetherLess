@@ -12,14 +12,14 @@
   <ul id="navigation">
     <li>
         <%=
-            if current_page?(:controller => :logs)
+            if params[:controller] == 'logs'
               link_to 'Logs', logs_path, :class => 'selected'
             else
               link_to 'Logs', logs_path
             end
         %>
         <%=
-            if current_page?(:controller => :groups)
+            if params[:controller] == 'groups'
                 link_to 'Gruppen', groups_path, :class => 'selected'
             else
                 link_to 'Gruppen', groups_path
