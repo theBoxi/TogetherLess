@@ -9,6 +9,24 @@
 <body>
 <nav>
   <%= link_to image_tag("logo.png", alt: "Home", id: "navLogo"), home_path %>
+  <ul id="navigation">
+    <li>
+        <%=
+            if current_page?(:controller => :logs)
+              link_to 'Logs', logs_path, :class => 'selected'
+            else
+              link_to 'Logs', logs_path
+            end
+        %>
+        <%=
+            if current_page?(:controller => :groups)
+                link_to 'Gruppen', groups_path, :class => 'selected'
+            else
+                link_to 'Gruppen', groups_path
+            end
+        %>
+    </li>
+  </ul>
   <h1 id="navTitle">Title</h1>
 </nav>
 <section>
