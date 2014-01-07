@@ -25,6 +25,7 @@ class GroupsController < ApplicationController
 
   # GET /groups/1/edit
   def edit
+    redirect_to :action => :index and return unless is_owner?
   end
 
   # POST /groups
@@ -51,6 +52,7 @@ class GroupsController < ApplicationController
   # PATCH/PUT /groups/1
   # PATCH/PUT /groups/1.json
   def update
+    redirect_to :action => :index and return unless is_owner?
     respond_to do |format|
       if @group.update(group_params)
         format.html { redirect_to @group, notice: 'Group was successfully updated.' }
@@ -65,6 +67,7 @@ class GroupsController < ApplicationController
   # DELETE /groups/1
   # DELETE /groups/1.json
   def destroy
+    redirect_to :action => :index and return unless is_owner?
     for member in @group.members
       member.destroy
     end
@@ -88,6 +91,15 @@ class GroupsController < ApplicationController
     # Never trust parameters from the scary internet, only allow the white list through.
     def group_params
       params.require(:group).permit(:name)
+    end
+
+    def is_owner?
+      if @group.owner.user == current_user
+        return true
+      else
+        flash[:alert] = 'Nur der Owner einer Gruppe kann das tun!'
+        return false
+      end
     end
 
     def is_user_member_of_group?(user, group)
