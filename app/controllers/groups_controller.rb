@@ -35,6 +35,8 @@ class GroupsController < ApplicationController
     @group.members << member
     current_user.members << member
 
+    @group.owner = member
+
     respond_to do |format|
       if @group.save
         format.html { redirect_to @group, notice: 'Group was successfully created.' }
