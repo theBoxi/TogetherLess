@@ -3,6 +3,15 @@
 <p>
   <strong>Name:</strong>
   <%= @group.name %>
+  <ul>
+  <% for member in @group.members %>
+  <li>
+    <% if current_user == member.user %><b><% end %>
+    <%= member.user.username %>
+    <% if current_user == member.user %></b><% end %>
+  </li>
+  <% end %>
+  </ul>
 </p>
 
 <%= link_to 'Edit', edit_group_path(@group) %> |
